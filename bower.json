@@ -1,0 +1,25 @@
+{
+  "name": "flh_core",
+  "main": "flh_core.js",
+  "version": "0.1",
+  "homepage": "https://github.com/alexebube/flh-core",
+  "authors": [
+    "Alexander Obi <alexebube@gmail.com>"
+  ],
+  "description": "FLH angular core",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "flh"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
