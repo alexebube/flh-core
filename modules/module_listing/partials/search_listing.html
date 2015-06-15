@@ -1,0 +1,13 @@
+<div class="form-group" ng-hide="hideSearchBox" ng-class="{ 'has-error' : selectListing === true}"> <!--updateForm.$invalid && !updateForm.$pristine }">-->
+	<div id="bloodhound">
+		<label for="listing-search" class="label-title"><strong>* Organization, Agent or Broker Name</strong></label>
+	    <input id="listing-search" class="typeahead form-control" type="text" 
+            name="listing_term" placeholder="Search" required autocomplete="off" spellcheck="false" 
+            aria-expanded="false" role="combobox" aria-autocomplete="both"
+            aria-describedby="" />
+         
+            <p class="help-block" ng-hide="selectListing === false">
+                Please select a Organization/Agent/Broker from the list
+            </p>
+	</div>
+</div>

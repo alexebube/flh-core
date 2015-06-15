@@ -1,1 +1,5 @@
-angular.module('FLH_CORE', []);
+'use strict';
+
+angular.module('FLH_CORE', [
+    'Listing'
+]);
